@@ -1,0 +1,2 @@
+* Random password generator using real words, writen in Python
+* Intended to be used via WSGI but will work standalone if in the correct directory (reads words from text files)
