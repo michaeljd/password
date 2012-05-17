@@ -31,22 +31,22 @@ def random_pass():
 	skills = []
 	names = []
 
-	with open("/var/www/localhost/htdocs/password/adjectives.txt","r") as words:
+	with open("./adjectives.txt","r") as words:
 		 for line in words:
 			  adjectives.append(line.rstrip())
 		 words.close()
 
-	with open("/var/www/localhost/htdocs/password/animals.txt","r") as words:
+	with open("./animals.txt","r") as words:
 		for line in words:
 			animals.append(line.rstrip())
 		words.close()
 
-	with open("/var/www/localhost/htdocs/password/skills.txt","r") as words:
+	with open("./skills.txt","r") as words:
 		 for line in words:
 			  skills.append(line.rstrip())
 		 words.close()
 
-	with open("/var/www/localhost/htdocs/password/names.txt","r") as words:
+	with open("./names.txt","r") as words:
 		 for line in words:
 			  names.append(line.rstrip())
 		 words.close()
